@@ -16,7 +16,7 @@ public class User {
     private Integer id;
 
     @Column(name="fullname")
-    @NotBlank(message="Name cannot be blank")
+    @NotBlank(message="Name can't be blank")
     private String name;
 
     @NotBlank(message="Email cannot be blank")
